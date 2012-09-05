@@ -6,4 +6,6 @@ Screenshots
 
 Installation
 ============
-Use Google/DDG/Startpage/etc.
+1. Clone the repo
+2. Copy fonts to ~/.fonts (create it if needed)
+3. Do `fc-cache`
