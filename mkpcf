@@ -1,0 +1,9 @@
+#!/bin/sh
+
+# Remove old files
+rm *.pcf 
+
+# Create PCF fonts
+for file in *.bdf; do
+    bdftopcf -o "${file%\.*}.pcf" "$file"
+done
