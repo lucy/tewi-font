@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Remove old files
-rm *.pcf 
+rm *.pcf *.bdf.bak 
 
 # Create PCF fonts
 for file in *.bdf; do
