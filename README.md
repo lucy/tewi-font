@@ -7,5 +7,5 @@ Screenshots
 Installation
 ============
 1. Clone the repo
-2. Copy fonts to ~/.fonts (create it if needed)
+2. Copy fonts to `~/.fonts` (or any subdirectory of it, create `~/.fonts` if needed)
 3. Do `fc-cache`
