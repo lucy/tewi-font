@@ -12,7 +12,7 @@ COMMENT "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the"
 COMMENT "GNU General Public License for more details."
 COMMENT ""
 COMMENT "You should have received a copy of the GNU General Public License"
-COMMENT "along with Foobar.  If not, see <http://www.gnu.org/licenses/>."
+COMMENT "along with bdf-tewi.  If not, see <http://www.gnu.org/licenses/>."
 FONT -FontForge-Tewi-medium-R-Normal--11-90-75-75-P-58-ISO10646-1
 SIZE 11 75 75
 FONTBOUNDINGBOX 10 15 -2 -3
