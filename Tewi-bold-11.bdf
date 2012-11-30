@@ -15,7 +15,7 @@ COMMENT "You should have received a copy of the GNU General Public License"
 COMMENT "along with bdf-tewi.  If not, see <http://www.gnu.org/licenses/>."
 FONT -ne-Tewi-bold-R-Normal--11-90-75-75-P-58-ISO10646-1
 SIZE 11 75 75
-FONTBOUNDINGBOX 10 13 -2 -3
+FONTBOUNDINGBOX 10 15 -2 -3
 STARTPROPERTIES 42
 FOUNDRY "ne"
 FAMILY_NAME "Tewi"
@@ -10678,13 +10678,13 @@ SWIDTH 523 0
 DWIDTH 6 0
 BBX 7 7 0 0
 BITMAP
-FE
-F6
+7C
+EE
 EE
 E2
 FE
 FE
-FE
+7C
 ENDCHAR
 STARTCHAR uni2B68
 ENCODING 11112
