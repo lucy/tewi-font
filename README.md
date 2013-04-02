@@ -13,4 +13,7 @@ Install bdf-tewi-git from the AUR.
 2. Copy fonts to `~/.fonts` (or any subdirectory of it, create `~/.fonts` if needed)
 3. Do `fc-cache`
 
-**tewi is distributed under the GPL with the font exception.**
+License
+-------
+**Tewi is distributed under the GNU GPLv3 with a [font
+exception](https://www.gnu.org/licenses/gpl-faq.html#FontException).**
