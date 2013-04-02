@@ -1,8 +1,8 @@
 Screenshots
 -----------
-![text](http://neeee.github.com/bdf-tewi/example.png)
+![go](https://neeee.github.com/bdf-tewi/example.png)
 
-![bold](http://neeee.github.com/bdf-tewi/bold.png)
+![ascii bold](https://neeee.github.com/bdf-tewi/bold.png)
 
 Installation
 ------------
