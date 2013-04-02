@@ -13,7 +13,7 @@ COMMENT GNU General Public License for more details.
 COMMENT 
 COMMENT You should have received a copy of the GNU General Public License
 COMMENT along with bdf-tewi.  If not, see <http://www.gnu.org/licenses/>.
-COMMENT
+COMMENT 
 COMMENT As a special exception, if you create a document which uses this
 COMMENT font, and embed this font or unaltered portions of this font into
 COMMENT the document, this font does not by itself cause the resulting
@@ -61,7 +61,7 @@ AVG_LOWERCASE_WIDTH 57
 AVG_UPPERCASE_WIDTH "56"
 _GBDFED_INFO "Edited with gbdfed 1.6."
 ENDPROPERTIES
-CHARS 930
+CHARS 931
 STARTCHAR .null.dup1
 ENCODING 0
 SWIDTH 0 0
@@ -10393,6 +10393,18 @@ BITMAP
 A8
 A8
 A8
+70
+ENDCHAR
+STARTCHAR char9678
+ENCODING 9678
+SWIDTH 436 0
+DWIDTH 5 0
+BBX 5 5 0 0
+BITMAP
+70
+88
+A8
+88
 70
 ENDCHAR
 STARTCHAR H18533
