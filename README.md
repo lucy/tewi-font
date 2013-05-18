@@ -7,7 +7,7 @@ Screenshots
 Installation
 ------------
 ###Arch
-Install bdf-tewi-git from the [AUR][aur page].
+Install `bdf-tewi-git` from the [AUR][aur page].
 ###Others
 1. Clone the repo
 2. Copy fonts to `~/.fonts` (or any subdirectory of it, create `~/.fonts` if needed)
