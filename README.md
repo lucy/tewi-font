@@ -1,8 +1,8 @@
 Screenshots
 -----------
-![code](http://neeee.github.com/bdf-tewi/goexample.png)
+![code](http://neeee.github.com/tewi-font/goexample.png)
 
-![ascii bold](http://neeee.github.com/bdf-tewi/asciibold.png)
+![ascii bold](http://neeee.github.com/tewi-font/asciibold.png)
 
 Installation
 ------------
