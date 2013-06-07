@@ -1,11 +1,16 @@
 #!/bin/sh
 
+# check for bdftopcf
+hash bdftopcf 2>/dev/null ||
+	echo "couldn't find bdftopcf, please install it" ||
+	exit 1
+
 # Remove old files
 rm -f *.pcf *.bdf.bak fonts.dir fonts.scale
 
 # Create PCF fonts
 for file in *.bdf; do
-    bdftopcf -o "${file%\.*}.pcf" "$file"
+	bdftopcf -o "${file%\.*}.pcf" "$file"
 done
 
 # Create X font register files
