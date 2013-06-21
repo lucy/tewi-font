@@ -55,4 +55,4 @@ jklmnopqrstuvwxyz{|}~¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½�
 License
 -------
 **Tewi is distributed under the GNU GPLv3 with a [font exception][fe].**
-[fe]: "https://www.gnu.org/licenses/gpl-faq.html#FontException"
+[fe]: https://www.gnu.org/licenses/gpl-faq.html#FontException
