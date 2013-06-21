@@ -1,6 +1,6 @@
 Screenshots
 -----------
-![code](http://neeee.github.com/tewi-font/goexample.png)
+![code](http://goput.it/uud.png)
 
 ![ascii bold](http://neeee.github.com/tewi-font/asciibold.png)
 
