@@ -14,6 +14,11 @@ Install `bdf-tewi-git` from the [AUR][aur page].
 2. Copy fonts to `~/.fonts` (or any subdirectory of it, create `~/.fonts` if needed)
 3. Do `fc-cache`
 
+2a Variant
+----------
+Tewi2a is a variant of tewi with a double story lower case a. It requires
+the regular version as a fallback.
+
 Glyphs
 ------
 In normal:
