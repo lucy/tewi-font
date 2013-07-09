@@ -1,8 +1,4 @@
-Screenshots
------------
-![code](http://goput.it/uud.png)
-
-![ascii bold](http://neeee.github.com/tewi-font/asciibold.png)
+![code](http://goput.it/q4y.png)
 
 Installation
 ------------
@@ -23,11 +19,11 @@ Glyphs
 ------
 In normal:
 
-![normal](http://goput.it/ytg.png)
+![normal](http://goput.it/rsh.png)
 
 In bold:
 
-![bold](http://goput.it/ih7.png)
+![bold](http://goput.it/qlk.png)
 
 License
 -------
