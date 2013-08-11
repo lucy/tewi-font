@@ -19,7 +19,7 @@ Glyphs
 ------
 In normal:
 
-![normal](http://goput.it/rsh.png)
+![normal](http://goput.it/w5is.png)
 
 In bold:
 
