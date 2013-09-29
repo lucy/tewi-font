@@ -28,8 +28,9 @@ In bold:
 Issues/Feedback
 ---------------
 Please report them on the issue tracker or contact me on IRC. Any feedback
-is appreciated, but try to avoid making duplicate issues
-(such as #1 and #2).
+is appreciated, but try to avoid making duplicate issues (such as
+[#1](https://github.com/neeee/tewi-font/issues/1) and
+[#2](https://github.com/neeee/tewi-font/issues/2)).
 
 License
 -------
