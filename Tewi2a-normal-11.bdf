@@ -1,6 +1,6 @@
 STARTFONT 2.1
 COMMENT Double story a, for use with normal Tewi as a fallback.
-COMMENT
+COMMENT 
 COMMENT This file is part of bdf-tewi.
 COMMENT 
 COMMENT Tewi is free software: you can redistribute it and/or modify
@@ -27,7 +27,7 @@ COMMENT the font, but you are not obligated to do so. If you do not wish to
 COMMENT do so, delete this exception statement from your version.
 FONT -lucy-Tewi2a-medium-R-Normal--11-90-75-75-P-58-ISO10646-1
 SIZE 9 75 75
-FONTBOUNDINGBOX 7 13 -1 -3
+FONTBOUNDINGBOX 5 5 0 0
 STARTPROPERTIES 19
 CHARSET_COLLECTIONS "ISO8859-2 ISO8859-5 ISO8859-9 ISO8859-4 ISO10646-1"
 COPYRIGHT "© lucy <ne.tetewi@gmail.com>"
@@ -41,7 +41,7 @@ PIXEL_SIZE 11
 POINT_SIZE 90
 RESOLUTION_X 75
 RESOLUTION_Y 75
-SPACING "M"
+SPACING "P"
 AVERAGE_WIDTH 58
 CHARSET_REGISTRY "ISO10646"
 CHARSET_ENCODING "1"
@@ -52,7 +52,7 @@ ENDPROPERTIES
 CHARS 1
 STARTCHAR LATIN SMALL LETTER A
 ENCODING 97
-SWIDTH 533 0
+SWIDTH 640 0
 DWIDTH 6 0
 BBX 5 5 0 0
 BITMAP
