@@ -1,5 +1,10 @@
 #!/bin/bash
 
+if [[ ! -f "$1" ]]; then
+	echo "Usage: glyphs.sh [font.bdf]"
+	exit 1
+fi
+
 fast_chr() {
     local __octal
     local __char
