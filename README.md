@@ -2,13 +2,15 @@
 
 Installation
 ------------
-###Arch
+### Arch
 Install `bdf-tewi-git` from the [AUR][aur page].
 [aur page]: https://aur.archlinux.org/packages/bdf-tewi-git/ "AUR page"
-###Others
+### Others
 1. Clone the repo
-2. Copy fonts to `~/.fonts` (or any subdirectory of it, create `~/.fonts` if needed)
-3. Do `fc-cache`
+2. (optional) run `make pcfs` if you want .pcf format fonts
+3. Create ~/.fonts if needed
+3. Copy or symlink the fonts (*.pcf if you did step 2., *.bdf otherwise) to `~/.fonts` or any subdirectory.
+4. Do `fc-cache`
 
 2a Variant
 ----------
