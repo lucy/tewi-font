@@ -16,6 +16,6 @@ $(CACHEFILES): $(PCFS)
 	xset fp rehash
 
 clean:
-	rm -f *.pcf fonts.dir fonts.scale
+	rm -f $(PCFS) $(CACHEFILES) *.bak
 
-.PHONY: all fontcache build clean
+.PHONY: all pcfs fontcache build clean
