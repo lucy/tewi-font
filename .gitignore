@@ -1,4 +1,5 @@
 *.pcf
-*.bdf.bak
+*.psf
+*.bak
 fonts.dir
 fonts.scale
