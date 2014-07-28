@@ -33,11 +33,9 @@ function unichr {
 }
 
 ## test harness 
-num=0
 for i in \
 	$(grep -E '^ENCODING' "$1" | 
 		sed -e 's/ENCODING//' |
 		tr -d '\n'); do
-	((num++ % 80 == 0)) && echo
 	unichr $i
 done

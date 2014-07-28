@@ -1,4 +1,4 @@
-![code](http://goput.it/q4y.png)
+![code](http://goput.it/v3ga.png)
 
 Installation
 ------------
@@ -21,11 +21,11 @@ Glyphs
 ------
 In normal:
 
-![normal](http://goput.it/iueg.png)
+![normal](http://goput.it/4l4v.png)
 
 In bold:
 
-![bold](http://goput.it/qlk.png)
+![bold](http://goput.it/k727.png)
 
 Issues/Feedback
 ---------------
