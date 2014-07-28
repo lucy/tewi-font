@@ -20,7 +20,7 @@ Glyphs
 ------
 In normal:
 
-![normal](https://puu.sh/av38B/eea6ebe667.png)
+![normal](https://puu.sh/ava60/be54d3652c.png)
 
 In bold:
 
