@@ -1,4 +1,4 @@
-![code](http://goput.it/v3ga.png)
+![code](https://puu.sh/av37i/5d152d7676.png)
 
 Installation
 ------------
@@ -6,10 +6,9 @@ Installation
 Install `bdf-tewi-git` from the [AUR][aur page].
 [aur page]: https://aur.archlinux.org/packages/bdf-tewi-git/ "AUR page"
 ### Others
-1. Clone the repo
-2. (optional) run `make pcfs` if you want .pcf format fonts
-3. Create ~/.fonts if needed
-3. Copy or symlink the fonts (*.pcf if you did step 2., *.bdf otherwise) to `~/.fonts` or any subdirectory.
+1. (optional) run `make pcfs` if you want .pcf format fonts
+2. Create ~/.fonts if needed
+3. Copy or symlink the fonts to `~/.fonts` or any subdirectory.
 4. Do `fc-cache`
 
 2a Variant
@@ -21,18 +20,15 @@ Glyphs
 ------
 In normal:
 
-![normal](http://goput.it/4l4v.png)
+![normal](https://puu.sh/av38B/eea6ebe667.png)
 
 In bold:
 
-![bold](http://goput.it/k727.png)
+![bold](https://puu.sh/av39J/5ff7643c44.png)
 
 Issues/Feedback
 ---------------
-Please report them on the issue tracker or contact me on IRC. Any feedback
-is appreciated, but try to avoid making duplicate issues (such as
-[#1](https://github.com/neeee/tewi-font/issues/1) and
-[#2](https://github.com/neeee/tewi-font/issues/2)).
+Please report them on the issue tracker or contact me on IRC.
 
 License
 -------
