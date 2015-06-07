@@ -1,4 +1,4 @@
-BDFS = $(wildcard *.bdf)
+BDFS = Tewi-normal-11.bdf Tewi-bold-11.bdf Tewi2a-normal-11.bdf Tewi2a-bold-11.bdf
 PCFS = $(BDFS:%.bdf=%.pcf)
 PSFS = $(BDFS:%.bdf=%.psf)
 CACHEFILES = fonts.dir fonts.scale
