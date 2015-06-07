@@ -1,4 +1,4 @@
-BDFS = Tewi-normal-11.bdf Tewi-bold-11.bdf Tewi2a-normal-11.bdf Tewi2a-bold-11.bdf
+BDFS = tewi-normal-11.bdf tewi-bold-11.bdf tewi2a-normal-11.bdf tewi2a-bold-11.bdf
 PCFS = $(BDFS:%.bdf=%.pcf)
 PSFS = $(BDFS:%.bdf=%.psf)
 CACHEFILES = fonts.dir fonts.scale
@@ -22,6 +22,6 @@ $(CACHEFILES): $(PCFS)
 	xset fp rehash
 
 clean:
-	rm -f $(PCFS) $(CACHEFILES) *.bak
+	rm -f *.pcf $(CACHEFILES) *.bak
 
 .PHONY: all pcfs fontcache build clean
