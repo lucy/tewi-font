@@ -1,4 +1,7 @@
-BDFS = tewi-normal-11.bdf tewifw-normal-11.bdf tewi-bold-11.bdf tewi2a-normal-11.bdf tewi2a-bold-11.bdf
+BDFS = \
+	tewi-normal-11.bdf tewi-bold-11.bdf \
+	tewifw-normal-11.bdf tewifw-bold-11.bdf \
+	tewi2a-normal-11.bdf tewi2a-bold-11.bdf
 PCFS = $(BDFS:%.bdf=%.pcf)
 PSFS = $(BDFS:%.bdf=%.psf)
 CACHEFILES = fonts.dir fonts.scale
