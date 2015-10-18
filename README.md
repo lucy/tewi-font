@@ -30,5 +30,7 @@ Issues/Feedback
 ---------------
 Please report them on the issue tracker or contact me on IRC.
 
-
-Tewi is distributed under the Ubuntu Font Licence 1.0
+License
+-------
+**Tewi is distributed under the GNU GPLv3 with a [font exception][fe].**
+[fe]: https://www.gnu.org/licenses/gpl-faq.html#FontException
