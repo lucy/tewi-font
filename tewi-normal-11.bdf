@@ -1,28 +1,5 @@
 STARTFONT 2.1
-COMMENT This file is part of bdf-tewi.
-COMMENT 
-COMMENT Tewi is free software: you can redistribute it and/or modify
-COMMENT it under the terms of the GNU General Public License as published by
-COMMENT the Free Software Foundation, either version 3 of the License, or
-COMMENT (at your option) any later version.
-COMMENT 
-COMMENT Tewi is distributed in the hope that it will be useful,
-COMMENT but WITHOUT ANY WARRANTY; without even the implied warranty of
-COMMENT MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-COMMENT GNU General Public License for more details.
-COMMENT 
-COMMENT You should have received a copy of the GNU General Public License
-COMMENT along with bdf-tewi.  If not, see <http://www.gnu.org/licenses/>.
-COMMENT 
-COMMENT As a special exception, if you create a document which uses this
-COMMENT font, and embed this font or unaltered portions of this font into
-COMMENT the document, this font does not by itself cause the resulting
-COMMENT document to be covered by the GNU General Public License. This
-COMMENT exception does not however invalidate any other reasons why the
-COMMENT document might be covered by the GNU General Public License. If you
-COMMENT modify this font, you may extend this exception to your version of
-COMMENT the font, but you are not obligated to do so. If you do not wish to
-COMMENT do so, delete this exception statement from your version. 
+COMMENT Licensed under the Ubuntu Font Licence 1.0
 FONT -lucy-tewi-medium-r-normal--11-90-75-75-m-60-ISO10646-1
 SIZE 9 75 75
 FONTBOUNDINGBOX 6 13 0 -4
