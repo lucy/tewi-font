@@ -1,4 +1,4 @@
-![tewi](https://luz.lu/tewi/tewi.png)
+![screenshot](https://luz.lu/tewi/tewi.png)
 
 # Glyphs
 #### tewi-normal
