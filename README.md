@@ -1,6 +1,6 @@
 ![screenshot](https://luz.lu/tewi/tewi.png)
 
-# Glyphs
+# glyphs
 #### tewi-normal
 ![tewi-normal](https://luz.lu/tewi/tewi-normal.png)
 
@@ -24,5 +24,5 @@ tewi2a needs tewi as a fallback.
 tewifw is meant to be used after the others.
 
 # License
-Tewi is distributed under the GNU GPLv3 with a [font exception][fe].
+tewi is distributed under the GNU GPLv3 with a [font exception][fe].
 [fe]: https://www.gnu.org/licenses/gpl-faq.html#FontException
