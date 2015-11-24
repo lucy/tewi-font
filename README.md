@@ -20,8 +20,8 @@
 ![tewifw-bold](https://luz.lu/tewi/tewifw-bold.png)
 
 # Variants
-tewi2a needs, tewi as a fallback, tewifw is meant to be used after the
-others.
+tewi2a needs tewi as a fallback.
+tewifw is meant to be used after the others.
 
 # License
 Tewi is distributed under the GNU GPLv3 with a [font exception][fe].
