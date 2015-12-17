@@ -9,7 +9,7 @@ unicode_version = 8.0.0
 all: $(pcf) $(cache)
 
 out:
-	mkdir out
+	mkdir -p out
 
 $(pcf): out/%.pcf.gz: %.bdf out
 	bdftopcf $< | gzip -9 > $@
