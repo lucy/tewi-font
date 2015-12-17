@@ -11,7 +11,7 @@ all: $(pcf) $(cache)
 out:
 	mkdir out
 
-$(pcf): out/%.pcf.gz: %.bdf
+$(pcf): out/%.pcf.gz: %.bdf out
 	bdftopcf $< | gzip -9 > $@
 
 out/fonts.scale: $(pcf)
@@ -23,7 +23,7 @@ out/fonts.dir: $(pcf) out/fonts.scale
 	fc-cache
 
 clean:
-	rm -f out/* *.bak
+	rm -rf out *.bak
 
 UnicodeData.txt:
 	wget http://www.unicode.org/Public/$(unicode_version)/ucd/UnicodeData.txt
