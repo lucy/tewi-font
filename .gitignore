@@ -1,6 +1,3 @@
-*.pcf
-*.psf
+out
 *.bak
-fonts.dir
-fonts.scale
 UnicodeData.txt

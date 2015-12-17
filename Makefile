@@ -1,30 +1,31 @@
-BDFS = \
+bdf = \
 	tewi-normal-11.bdf tewi-bold-11.bdf \
-	tewifw-normal-11.bdf tewifw-bold-11.bdf \
-	tewi2a-normal-11.bdf tewi2a-bold-11.bdf
-PCFS = $(BDFS:%.bdf=%.pcf)
-PSFS = $(BDFS:%.bdf=%.psf)
-CACHEFILES = fonts.dir fonts.scale
+	tewi2a-normal-11.bdf tewi2a-bold-11.bdf \
+	tewifw-normal-11.bdf tewifw-bold-11.bdf
+pcf = $(addprefix out/,$(bdfs:%.bdf=%.pcf.gz))
+cache = out/fonts.dir out/fonts.scale
+unicode_version = 8.0.0
 
-all: pcfs fontcache
+all: $(pcf) $(cache)
 
-pcfs: $(PCFS)
-psfs: $(PSFS)
-fontcache: $(CACHEFILES)
+out:
+	mkdir out
 
-$(PCFS): %.pcf: %.bdf
-	bdftopcf -o $@ $^
+$(pcf): out/%.pcf.gz: %.bdf
+	bdftopcf $< | gzip > $@
 
-$(PSFS): %.psf: %.bdf
-	bdf2psf --fb $^ /usr/share/bdf2psf/standard.equivalents \
-		/usr/share/bdf2psf/ascii.set 512 $@
+out/fonts.scale: $(pcf)
+	mkfontscale out
 
-$(CACHEFILES): $(PCFS)
-	mkfontdir
-	mkfontscale
+out/fonts.dir: $(pcf) out/fonts.scale
+	mkfontdir out
 	xset fp rehash
+	fc-cache
 
 clean:
-	rm -f *.pcf $(CACHEFILES) *.bak
+	rm -f out/* *.bak
 
-.PHONY: all pcfs fontcache build clean
+UnicodeData.txt:
+	wget http://www.unicode.org/Public/$(unicode_version)/ucd/UnicodeData.txt
+
+.PHONY: all build clean
