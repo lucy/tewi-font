@@ -1,7 +1,7 @@
 bdf = \
-	tewi-normal-11.bdf tewi-bold-11.bdf \
-	tewi2a-normal-11.bdf tewi2a-bold-11.bdf \
-	tewifw-normal-11.bdf tewifw-bold-11.bdf
+	tewi-medium-11.bdf tewi-bold-11.bdf \
+	tewi2a-medium-11.bdf tewi2a-bold-11.bdf \
+	tewifw-medium-11.bdf tewifw-bold-11.bdf
 pcf = $(addprefix out/,$(bdf:%.bdf=%.pcf.gz))
 cache = out/fonts.dir out/fonts.scale
 unicode_version = 8.0.0
