@@ -6,7 +6,9 @@ pcf = $(addprefix out/,$(bdf:%.bdf=%.pcf.gz))
 cache = out/fonts.dir out/fonts.scale
 unicode_version = 8.0.0
 
-all: $(pcf) $(cache)
+all: $(pcf)
+
+fontdir: $(pcf) $(cache)
 
 out:
 	mkdir -p out
