@@ -19,6 +19,16 @@
 #### tewifw-bold
 ![tewifw-bold](https://luz.lu/tewi/tewifw-bold.png)
 
-# Variants
+# variants
 tewi2a needs tewi as a fallback.
 tewifw is meant to be used after the others.
+
+# private use characters
+#### powerline
+      
+
+#### layouts
+       
+
+#### misc
+   
