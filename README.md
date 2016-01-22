@@ -32,3 +32,9 @@ tewifw is meant to be used after the others.
 
 #### misc
    
+
+#### moon
+       
+
+# cjk fallbacks
+mplus, kochi gothic and wqy-bitmapfont are good. wqy is broken in urxvt.
