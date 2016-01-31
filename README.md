@@ -25,7 +25,7 @@
 up-to-date ebuild.
 
 ## Arch
-Has an (aur package)[https://aur.archlinux.org/packages/bdf-tewi-git/].
+Has an [aur package](https://aur.archlinux.org/packages/bdf-tewi-git/).
 
 ## Others
 ### X11
