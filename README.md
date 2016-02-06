@@ -27,23 +27,22 @@ up-to-date ebuild.
 ### Arch
 Has an [aur package](https://aur.archlinux.org/packages/bdf-tewi-git/).
 
-### Others
-##### X11
+### X11
 ```
 $ make fontdir
 $ xset +fp /path/to/tewi-font/out
 ```
 
-##### Fontconfig
+### Fontconfig
 ```
 $ make
 $ ln -s /path/to/tewi-font/out ~/.fonts/tewi
 ```
 
-# variants
+# Variants
 tewi2a needs tewi as a fallback.
 tewifw is meant to be used after the others.
 
 
-# cjk fallbacks
+# CJK Fallbacks
 mplus, kochi gothic and wqy-bitmapfont are good. wqy is broken in urxvt.

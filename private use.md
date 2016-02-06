@@ -1,13 +1,13 @@
-# private use characters
-### powerline
+# Private use characters
+### Powerline
       
 
-### layouts
+### Layouts
        
 
-### misc
+### Misc.
    
 
-### moon
+### Moon Phases
        
  
