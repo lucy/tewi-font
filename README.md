@@ -2,22 +2,22 @@
 
 # Glyphs
 ### tewi-medium
-![tewi-medium](https://luz.lu/tewi/tewi-normal.png)
+![tewi-medium](https://luz.lu/tewi/tewi-medium-11.png)
 
 ### tewi-bold
-![tewi-bold](https://luz.lu/tewi/tewi-bold.png)
+![tewi-bold](https://luz.lu/tewi/tewi-bold-11.png)
 
 ### tewi2a-medium
-![tewi2a-medium](https://luz.lu/tewi/tewi2a-normal.png)
+![tewi2a-medium](https://luz.lu/tewi/tewi2a-medium-11.png)
 
 ### tewi2a-bold
-![tewi2a-bold](https://luz.lu/tewi/tewi2a-bold.png)
+![tewi2a-bold](https://luz.lu/tewi/tewi2a-bold-11.png)
 
-### tewifw-medium
-![tewifw-medium](https://luz.lu/tewi/tewifw-normal.png)
+### tewii-medium
+![tewi2a-medium](https://luz.lu/tewi/tewii-medium-11.png)
 
-### tewifw-bold
-![tewifw-bold](https://luz.lu/tewi/tewifw-bold.png)
+### tewii-bold
+![tewi2a-bold](https://luz.lu/tewi/tewii-bold-11.png)
 
 # Installation
 ### Gentoo
@@ -40,9 +40,6 @@ $ ln -s /path/to/tewi-font/out ~/.fonts/tewi
 ```
 
 # Usage
-Put tewifw as a fallback to the your main font
-if you want to use its fullwidth glyphs.
-
 To build just the standalone variant .bdf files
 (for tewii and tewi2a)
 run `make var`.
