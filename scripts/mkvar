@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+set -e -o pipefail
+IFS='-.' read -r _ weigth size _ <<< "$1"
+scripts/merge.py "tewi-${weigth}-${size}.bdf" "variant/$1" > "$1"
