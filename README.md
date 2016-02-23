@@ -42,6 +42,7 @@ $ ln -s /path/to/tewi-font/out ~/.fonts/tewi
 # Usage
 Put tewifw as a fallback to the your main font
 if you want to use its fullwidth glyphs.
+
 To build just the standalone variant .bdf files
 (for tewii and tewi2a)
 run `make var`.
