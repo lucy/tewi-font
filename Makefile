@@ -40,7 +40,7 @@ out/fonts.dir: $(pcf) out/fonts.scale
 	fc-cache
 
 clean:
-	rm -rf out *.bak
+	rm -rf out *.bak $(var)
 
 UnicodeData.txt:
 	curl http://www.unicode.org/Public/$(unicode_version)/ucd/UnicodeData.txt > $@
