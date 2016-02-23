@@ -21,8 +21,8 @@
 
 # Installation
 ### Gentoo
-[lucy/lucy-overlay](https://github.com/lucy/lucy-overlay) contains an
-up-to-date ebuild.
+[lucy/lucy-overlay](https://github.com/lucy/lucy-overlay)
+contains an up-to-date ebuild.
 
 ### Arch
 Has an [aur package](https://aur.archlinux.org/packages/bdf-tewi-git/).
@@ -39,10 +39,10 @@ $ make
 $ ln -s /path/to/tewi-font/out ~/.fonts/tewi
 ```
 
-# Variants
-tewi2a needs tewi as a fallback.
-tewifw is meant to be used after the others.
-
+# Usage
+Put tewifw as a fallback to the your main font
+if you want to use its fullwidth glyphs.
 
 # CJK Fallbacks
-mplus, kochi gothic and wqy-bitmapfont are good. wqy is broken in urxvt.
+mplus, kochi gothic and wqy-bitmapfont are good.
+wqy is broken in urxvt.
