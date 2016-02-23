@@ -38,10 +38,10 @@ for n in sys.argv[1:]:
 for l in props:
     sys.stdout.write(l)
 
-print("CHARS {}", len(glyphs))
+print("CHARS {}".format(len(glyphs)))
 
 for l in sorted(glyphs.items(), key=operator.itemgetter(0)):
     for l in l[1]:
         sys.stdout.write(l)
 
-print("ENDCHARS")
+print("ENDFONT")
