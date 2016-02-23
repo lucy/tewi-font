@@ -1,11 +1,11 @@
 STARTFONT 2.1
-FONT -lucy-tewi-medium-r-normal--11-90-100-100-c-60-ISO10646-1
+FONT -lucy-tewii-medium-r-normal--11-90-100-100-c-60-ISO10646-1
 SIZE 11 100 100
 FONTBOUNDINGBOX 6 13 0 -3
 STARTPROPERTIES 22
 COPYRIGHT "© lucy <ne.tetewi@gmail.com>"
 FOUNDRY "lucy"
-FAMILY_NAME "tewi"
+FAMILY_NAME "tewii"
 WEIGHT_NAME "medium"
 SLANT "r"
 SETWIDTH_NAME "normal"
