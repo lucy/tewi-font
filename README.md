@@ -33,13 +33,13 @@ I don't know how to use this:
 [6c37/pcf-tewi](https://github.com/6c37/crux-ports)
 
 ### X11
-```
-$ xset +fp /path/to/tewi-font/out
+```shell
+$ xset +fp /path/to/tewi-font/out # you should do this every time X starts
 $ make fontdir
 ```
 
 ### Fontconfig
-```
+```shell
 $ make
 $ ln -s /path/to/tewi-font/out ~/.fonts/tewi
 $ fc-cache -fv
