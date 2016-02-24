@@ -33,14 +33,15 @@ I don't know how to use this:
 
 ### X11
 ```
-$ make fontdir
 $ xset +fp /path/to/tewi-font/out
+$ make fontdir
 ```
 
 ### Fontconfig
 ```
 $ make
 $ ln -s /path/to/tewi-font/out ~/.fonts/tewi
+$ fc-cache -fv
 ```
 
 # Usage
