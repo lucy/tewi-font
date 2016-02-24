@@ -21,11 +21,12 @@
 
 # Installation
 ### Gentoo
-An up-to-date ebuild can be found at
+Up-to-date ebuilds can be found at
 [lucy/lucy-overlay](https://github.com/lucy/lucy-overlay).
 
 ### Arch
-Has an [aur package](https://aur.archlinux.org/packages/bdf-tewi-git/).
+Has an [aur package](https://aur.archlinux.org/packages/bdf-tewi-git/)
+(git head only).
 
 ### Crux
 I don't know how to use this:
@@ -44,10 +45,15 @@ $ ln -s /path/to/tewi-font/out ~/.fonts/tewi
 $ fc-cache -fv
 ```
 
-# Usage
+# Building
+Just run `make`.
+
 To build just the standalone variant .bdf files
-(for tewii and tewi2a)
-run `make var`.
+(for tewii and tewi2a) run `make var`.
+
+### Dependencies
+* python (variant generator)
+* bdftopcf (.pcf files)
 
 # CJK Fallbacks
 mplus, kochi gothic and wqy-bitmapfont are good.
