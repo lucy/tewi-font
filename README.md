@@ -21,11 +21,15 @@
 
 # Installation
 ### Gentoo
-[lucy/lucy-overlay](https://github.com/lucy/lucy-overlay)
-contains an up-to-date ebuild.
+An up-to-date ebuild can be found at
+[lucy/lucy-overlay](https://github.com/lucy/lucy-overlay).
 
 ### Arch
 Has an [aur package](https://aur.archlinux.org/packages/bdf-tewi-git/).
+
+### Crux
+I don't know how to use this:
+[6c37/pcf-tewi](https://github.com/6c37/crux-ports)
 
 ### X11
 ```
