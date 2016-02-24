@@ -14,10 +14,16 @@
 ![tewi2a-bold](https://luz.lu/tewi/tewi2a-bold-11.png)
 
 ### tewii-medium
-![tewi2a-medium](https://luz.lu/tewi/tewii-medium-11.png)
+![tewii-medium](https://luz.lu/tewi/tewii-medium-11.png)
 
 ### tewii-bold
-![tewi2a-bold](https://luz.lu/tewi/tewii-bold-11.png)
+![tewii-bold](https://luz.lu/tewi/tewii-bold-11.png)
+
+### tewfw-medium
+![tewifw-medium](https://luz.lu/tewi/tewifw-medium-11.png)
+
+### tewfw-bold
+![tewifw-bold](https://luz.lu/tewi/tewifw-bold-11.png)
 
 # Installation
 ### Gentoo
