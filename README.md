@@ -27,7 +27,7 @@
 
 # NOTE
 If your distro has something stupid like `70-no-bitmaps.conf` in
-/etc/fonts/conf.d, and tewi doesn't work, you should remove it.
+`/etc/fonts/conf.d`, and tewi doesn't work, you should remove it.
 
 # Installation
 ### Gentoo
