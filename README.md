@@ -25,6 +25,10 @@
 ### tewfw-bold
 ![tewifw-bold](https://luz.lu/tewi/tewifw-bold-11.png)
 
+# NOTE
+If your distro has something stupid like `70-no-bitmaps.conf` in
+/etc/fonts/conf.d, and tewi doesn't work, you should remove it.
+
 # Installation
 ### Gentoo
 Up-to-date ebuilds can be found at
