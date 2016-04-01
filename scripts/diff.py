@@ -52,7 +52,7 @@ for k, v in glyphs2.items():
 for l in props:
     sys.stdout.write(l)
 
-print("CHARS {}", len(glyphs3))
+print("CHARS {}".format(len(glyphs3)))
 
 for l in sorted(glyphs3.items(), key=operator.itemgetter(0)):
     for l in l[1]:
