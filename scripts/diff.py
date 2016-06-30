@@ -1,8 +1,12 @@
 #!/usr/bin/env python
 
+import codecs
+import io
+import operator
 import re
 import sys
-import operator
+
+sys.stdout = codecs.getwriter("utf-8")(sys.stdout.detach())
 
 enc_re = re.compile(r"^ENCODING (\d+)")
 
@@ -26,7 +30,7 @@ props = []
 glyphs1 = {}
 glyphs2 = {}
 
-with open(sys.argv[1]) as f:
+with io.open(sys.argv[1], encoding="utf-8") as f:
     lines = f.readlines()
 i = lines.index("ENDPROPERTIES\n")
 props = lines[:i+1]
@@ -35,7 +39,7 @@ lines.pop(0) # CHARS ...\n
 lines.pop() # ENDCHARS\n
 glyphs1.update(parse_glyphs(lines))
 
-with open(sys.argv[2]) as f:
+with io.open(sys.argv[2], encoding="utf-8") as f:
     lines = f.readlines()
 i = lines.index("ENDPROPERTIES\n")
 props = lines[:i+1]

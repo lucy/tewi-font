@@ -1,8 +1,12 @@
 #!/usr/bin/env python
 
+import codecs
+import io
+import operator
 import re
 import sys
-import operator
+
+sys.stdout = codecs.getwriter("utf-8")(sys.stdout.detach())
 
 enc_re = re.compile(r"^ENCODING (\d+)")
 
@@ -26,7 +30,7 @@ props = []
 glyphs = {}
 
 for n in sys.argv[1:]:
-    with open(n) as f:
+    with io.open(n, encoding="utf-8") as f:
         lines = f.readlines()
     i = lines.index("ENDPROPERTIES\n")
     props = lines[:i+1]
