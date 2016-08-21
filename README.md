@@ -62,7 +62,7 @@ To build just the standalone variant .bdf files
 (for tewii and tewi2a) run `make var`.
 
 ### Dependencies
-* python (variant generator)
+* python 3 (variant generator)
 * bdftopcf (.pcf files)
 
 # CJK Fallbacks
