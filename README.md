@@ -46,6 +46,7 @@ I don't know how to use this:
 ```shell
 $ make fontdir
 $ xset +fp /path/to/tewi-font/out # you should do this every time X starts
+                                  # e.g. put it in your ~/.xinitrc
 ```
 
 ### Fontconfig
