@@ -44,8 +44,8 @@ I don't know how to use this:
 
 ### X11
 ```shell
-$ xset +fp /path/to/tewi-font/out # you should do this every time X starts
 $ make fontdir
+$ xset +fp /path/to/tewi-font/out # you should do this every time X starts
 ```
 
 ### Fontconfig
