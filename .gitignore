@@ -1,5 +1,6 @@
-out
 *.bak
-UnicodeData.txt
-/tewii-*.bdf
 /tewi2a-*.bdf
+/tewihm-*.bdf
+/tewii-*.bdf
+UnicodeData.txt
+out

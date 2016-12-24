@@ -1,17 +1,10 @@
-bdf = \
-	tewi-medium-11.bdf tewi-bold-11.bdf \
-	tewifw-medium-11.bdf tewifw-bold-11.bdf \
-	$(var)
-var_m = \
-	tewi2a-medium-11.bdf \
-	tewii-medium-11.bdf 
-var_b = \
-	tewi2a-bold-11.bdf \
-	tewii-bold-11.bdf
+bdf = tewi-medium-11.bdf tewi-bold-11.bdf tewifw-medium-11.bdf tewifw-bold-11.bdf $(var)
+var_m = tewi2a-medium-11.bdf tewihm-medium-11.bdf tewii-medium-11.bdf
+var_b = tewi2a-bold-11.bdf tewihm-bold-11.bdf tewii-bold-11.bdf
 var = $(var_m) $(var_b)
 pcf = $(bdf:%.bdf=out/%.pcf.gz)
 cache = out/fonts.dir out/fonts.scale
-unicode_version = 8.0.0
+unicode_version = 9.0.0
 
 all: $(pcf)
 
