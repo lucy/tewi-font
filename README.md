@@ -4,29 +4,23 @@
 #### tewi-medium
 ![tewi-medium](https://luz.lu/tewi/tewi-medium.png)
 
-#### tewi-bold
-![tewi-bold](https://luz.lu/tewi/tewi-bold.png)
+#### tewii-medium
+![tewii-medium](https://luz.lu/tewi/tewii-medium.png)
 
 #### tewi2a-medium
 ![tewi2a-medium](https://luz.lu/tewi/tewi2a-medium.png)
 
-#### tewi2a-bold
-![tewi2a-bold](https://luz.lu/tewi/tewi2a-bold.png)
-
-#### tewii-medium
-![tewii-medium](https://luz.lu/tewi/tewii-medium.png)
+#### tewi-bold
+![tewi-bold](https://luz.lu/tewi/tewi-bold.png)
 
 #### tewii-bold
 ![tewii-bold](https://luz.lu/tewi/tewii-bold.png)
 
-#### tewfw-medium
-![tewifw-medium](https://luz.lu/tewi/tewifw-medium.png)
-
-#### tewfw-bold
-![tewifw-bold](https://luz.lu/tewi/tewifw-bold.png)
+#### tewi2a-bold
+![tewi2a-bold](https://luz.lu/tewi/tewi2a-bold.png)
 
 ## NOTE
-If your distro has something silly like `70-no-bitmaps.conf` in
+If your distro has a file like `70-no-bitmaps.conf` in
 `/etc/fonts/conf.d`, and tewi doesn't work, you should remove it.
 
 ## Installation
