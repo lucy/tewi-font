@@ -1,6 +1,5 @@
 ![screenshot](https://luz.lu/tewi/tewi-2.png)
 
-## Glyphs
 #### tewi-medium
 ![tewi-medium](https://luz.lu/tewi/tewi-medium.png)
 
@@ -19,11 +18,14 @@
 #### tewi2a-bold
 ![tewi2a-bold](https://luz.lu/tewi/tewi2a-bold.png)
 
-## NOTE
-If your distro has a file like `70-no-bitmaps.conf` in
-`/etc/fonts/conf.d`, and tewi doesn't work, you should remove it.
+## Building
+#### Requirements
+* python 3 (variant generator)
+* bdftopcf (.pcf files)
 
-## Installation
+Run `make` to build PCFs. To only build the standalone BDF files run `make var`.
+
+## Installing
 #### Arch
 [AUR package](https://aur.archlinux.org/packages/bdf-tewi-git/)
 
@@ -44,15 +46,5 @@ $ ln -s /path/to/tewi-font/out ~/.fonts/tewi
 $ fc-cache -fv
 ```
 
-## Building
-Just run `make`.
-
-To only build the standalone .bdf files run `make var`.
-
-#### Dependencies
-* python 3 (variant generator)
-* bdftopcf (.pcf files)
-
-## CJK Fallbacks
-mplus, kochi gothic and wqy-bitmapfont are good.
-wqy is broken in urxvt.
+NOTE: If your distro has a file like `70-no-bitmaps.conf` in
+`/etc/fonts/conf.d`, and tewi doesn't work, you should remove it.
