@@ -1,22 +1,22 @@
-![screenshot](https://luz.lu/tewi/tewi-2.png)
+![screenshot](https://lucy.github.io/tewi-font/tewi-2.png)
 
 #### tewi-medium
-![tewi-medium](https://luz.lu/tewi/tewi-medium.png)
+![tewi-medium](https://lucy.github.io/tewi-font/tewi-medium.png)
 
 #### tewii-medium
-![tewii-medium](https://luz.lu/tewi/tewii-medium.png)
+![tewii-medium](https://lucy.github.io/tewi-font/tewii-medium.png)
 
 #### tewi2a-medium
-![tewi2a-medium](https://luz.lu/tewi/tewi2a-medium.png)
+![tewi2a-medium](https://lucy.github.io/tewi-font/tewi2a-medium.png)
 
 #### tewi-bold
-![tewi-bold](https://luz.lu/tewi/tewi-bold.png)
+![tewi-bold](https://lucy.github.io/tewi-font/tewi-bold.png)
 
 #### tewii-bold
-![tewii-bold](https://luz.lu/tewi/tewii-bold.png)
+![tewii-bold](https://lucy.github.io/tewi-font/tewii-bold.png)
 
 #### tewi2a-bold
-![tewi2a-bold](https://luz.lu/tewi/tewi2a-bold.png)
+![tewi2a-bold](https://lucy.github.io/tewi-font/tewi2a-bold.png)
 
 ## Building
 #### Requirements
